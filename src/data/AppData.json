@@ -1,0 +1,46 @@
+{
+  "dropdowns": {
+    "propertyType": {
+      "dropDownResponseBeans": [
+        {
+          "formName": "homePropertyTypeForm",
+          "fieldName": "propertyType",
+          "dropDownValues": [
+            {
+              "code": "propertyType",
+              "description": "propertyType",
+              "values": [
+                {
+                  "webDesc": "Home",
+                  "value": "HOME"
+                },
+                {
+                  "webDesc": "Townhome",
+                  "value": "TOWNHOME"
+                },
+                {
+                  "webDesc": "Duplex",
+                  "value": "DUPLEX"
+                },
+                {
+                  "webDesc": "Mobile/manufactured home",
+                  "value": "MOBILE"
+                },
+                {
+                  "webDesc": "Other",
+                  "value": "OTHER"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "status": "success"
+    }
+  },
+  "fetchBundleQuestions": {},
+  "quote": {
+    "selectedPaymentMode": "PIF",
+    "selectedPackageCode": "E"
+  }
+}
